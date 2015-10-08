@@ -5,6 +5,3 @@ def mayor(n1, n2):
 		 salida = True
 	else:
 		salida = False
-	
-
-
