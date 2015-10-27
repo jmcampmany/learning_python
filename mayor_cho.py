@@ -13,4 +13,3 @@ else:#Si no lo es recoge números y almacena el que vaya siendo mayor en "mayor"
 			mayor = num
 		num = int(raw_input("Introduce números para saber el mayor de ellos. Para salir introduce un negativo: "))
 	print "El mayor número es: " + str(mayor) + ". Adiós."
-
