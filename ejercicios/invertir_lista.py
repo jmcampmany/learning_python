@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
-
+#Básicos. Ejercicio 5
 li = []
 num = int(raw_input("Introduce números para mostrarlos en orden inverso. Para parar introduce 0: "))
 

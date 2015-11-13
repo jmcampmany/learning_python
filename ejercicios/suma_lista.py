@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
+#Básicos. Ejercicio 3
+
 li = []
 num = int(raw_input("Introduce números para sumarlos. Para parar introduce 0: "))
 

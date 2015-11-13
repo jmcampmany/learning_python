@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
+#Básicos. Ejercicio 2
 
 entrada = int(raw_input("Introduce un número par para obtener Hola o un impar para obtener Adiós."))
 

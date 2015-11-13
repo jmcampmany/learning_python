@@ -9,7 +9,11 @@ HUNDRED = "hundred"
 
 def checkio(number):
 
-    #replace this for solution
+  for i in number
+
+  if len(number):
+
+
     return 'string representation of n'
 
 if __name__ == '__main__':

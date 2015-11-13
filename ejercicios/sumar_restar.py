@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
+#Básicos. Ejercicio 4
 
 li = []
 num = int(raw_input("Introduce números para operar con ellos. Para parar introduce 0: "))
