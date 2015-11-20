@@ -1,5 +1,9 @@
 def count_words(text, words):
-    return 0
+	count = 0
+	for i in words:
+		if i in text.lower():
+			count += 1
+    return count
 
 
 if __name__ == '__main__':

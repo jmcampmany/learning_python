@@ -1,11 +1,10 @@
 def checkio(array):
 	out = 0
-	for i in array:
-		index = array.index(i)
-		if index%2 == 0:
-			out += i
-		if index ==  len(array)-1:
-			out *= i
+	if len(array) != 0:
+		for i in range(0, len(array)):
+			if i%2 == 0:
+				out += array[i]
+		out *= array[-1]	
 	return out
 
 #These "asserts" using only for self-checking and not necessary for auto-testing
