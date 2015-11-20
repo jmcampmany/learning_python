@@ -1,16 +1,10 @@
-def checkio(data):
+bdef checkio(data):
     nounicos = []
     for i in data:
         if data.count(i) > 1:
             nounicos.append(i)
     return nounicos
-
-
-    nounicos = {}
-    for i in data:
-        count = data.count(i)
-        nounicos[i]:count
-
+    
 if __name__ == "__main__":
     #These "asserts" using only for self-checking and not necessary for auto-testing
     assert isinstance(checkio([1]), list), "The result must be a list"

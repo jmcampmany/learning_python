@@ -1,9 +1,12 @@
 def checkio(array):
 	out = 0
 	for i in array:
-		if i % 2 = 0:
-			
-    return 0
+		index = array.index(i)
+		if index%2 == 0:
+			out += i
+		if index ==  len(array)-1:
+			out *= i
+	return out
 
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':

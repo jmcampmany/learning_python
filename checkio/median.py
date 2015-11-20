@@ -1,9 +1,10 @@
 def checkio(data):
     data.sort()
+    median = 0
     if len(data)%2 != 0:
-        median = (len(data)+1)/2
+        median = data[len(data)/2]
     else:
-        median = (len(data)/2 + (len(data)+1)/2)/2
+        median = (data[len(data)/2] + data[len(data)/2-1])/2.0
     return median
 
 #These "asserts" using only for self-checking and not necessary for auto-testing

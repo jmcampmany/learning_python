@@ -1,9 +1,6 @@
 def count_neighbours(grid, row, col):
-    count = 0
-    for i in ((row-1, col-1), (row-1, col), (row-1, col+1), (row, col-1), (row, col+1), (row+1, col-1), (row+1, col), (row+1, col-1)):
-        if grid[i[0]][i[y]] == 1:
-            count += 1
-    return count
+    return 0
+
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
