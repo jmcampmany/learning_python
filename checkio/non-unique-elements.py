@@ -1,9 +1,9 @@
-bdef checkio(data):
-    nounicos = []
+def checkio(data):
+    notunique = []
     for i in data:
         if data.count(i) > 1:
-            nounicos.append(i)
-    return nounicos
+            notunique.append(i)
+    return notunique
     
 if __name__ == "__main__":
     #These "asserts" using only for self-checking and not necessary for auto-testing

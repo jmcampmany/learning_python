@@ -1,10 +1,14 @@
 import math
 
 def checkio(a, b, c):
-    angulo_a = math.acos((b**2+c**2-a**2)/2*b*c)
-    angulo_b = math.acos((a**2+c**2-a**2)/2*a*c)
-    angulo_c = 180 - angulo_a - angulo_c
-    return [angulo_a, angulo_b, angulo_c]
+	if a + b <= c:
+		return [0, 0, 0]
+	angle_a = round(math.acos((b**2 + c**2 - a**2) / (2*b*c)) / math.pi * 180)
+	angle_b = round(math.acos((a**2 + c**2 - b**2) / (2*a*c)) / math.pi * 180)
+	angle_c = 180 - angle_a - angle_b
+	solution = [angle_a, angle_b, angle_c]
+	solution.sort()
+	return solution
 
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
