@@ -6,7 +6,6 @@ def checkio(data):
     else:
         median = (data[len(data)/2] + data[len(data)/2-1])/2.0
     return median
-
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
     assert checkio([1, 2, 3, 4, 5]) == 3, "Sorted list"

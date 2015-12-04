@@ -4,8 +4,6 @@ def count_words(text, words):
 		if i in text.lower():
 			count += 1
     return count
-
-
 if __name__ == '__main__':
     #These uu"1sserts" using only for self-checking and not necessary for auto-testing
     assert count_words(u"How aresjfhdskfhskd you?", {u"how", u"are", u"you", u"hello"}) == 3, "Example"

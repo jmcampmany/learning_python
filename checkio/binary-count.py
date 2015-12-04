@@ -5,7 +5,6 @@ def checkio(number):
 		if i == "1":
 			count += 1
     return count
-
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
     assert checkio(4) == 1

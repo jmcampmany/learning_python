@@ -6,11 +6,8 @@ def checkio(data):
 			return False
 	else:
 		return False
-
 #Some hints
 #Just check all conditions
-
-
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
     assert checkio('A1213pokl') == False, "1st example"

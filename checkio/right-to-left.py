@@ -1,7 +1,6 @@
 def left_join(phrases):
 	out = ",".join(phrases)
     return 	out.replace("right", "left")
-
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
     assert left_join(("left", "right", "left", "stop")) == "left,left,left,stop", "All to left"

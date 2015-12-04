@@ -7,7 +7,6 @@ def checkio(first, second):
 		if word in second:
 			commonWords.append(word)
     return ",".join(sorted(commonWords))
-
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
     assert checkio(u"hello,world", u"hello,earth") == "hello", "Hello"

@@ -4,7 +4,6 @@ def checkio(data):
         if data.count(i) > 1:
             notunique.append(i)
     return notunique
-    
 if __name__ == "__main__":
     #These "asserts" using only for self-checking and not necessary for auto-testing
     assert isinstance(checkio([1]), list), "The result must be a list"

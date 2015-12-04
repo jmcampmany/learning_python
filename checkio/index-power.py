@@ -4,7 +4,6 @@ def index_power(array, n):
 	else:
 		out = array[n]**n
     return out
-
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
     assert index_power([1, 2, 3, 4], 2) == 9, "Square"

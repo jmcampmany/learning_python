@@ -11,7 +11,6 @@ def checkio(words):
 			count = 0
 	if count < 3:
 		return False
-
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
     assert checkio(u"Hello World hello") == True, "Hello"

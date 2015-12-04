@@ -11,7 +11,6 @@ def checkio(text):
             count += 1
             char = i
     return char
-
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
     assert checkio(u"Hello World!") == "l", "Hello test"

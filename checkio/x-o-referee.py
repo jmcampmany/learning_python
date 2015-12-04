@@ -1,20 +1,19 @@
 def checkio(game_result):
-    match = []
+    zipped = zip(game_result)
     for i in game_result:
-        match.append(i)
-        #[
-        #[X,.,0]
-        #[X,X,.]
-        #[X,0,0]]
-    for i in match:
-        for 
+        if "O" not in i and "." not in i:
+            return "X"
+        elif "X" not in i and "." not in i:
+            return "O"
+    for i in zipped:
+        if "O" not in i and "." not in i:
+            return "X"
+        elif "X" not in i and "." not in i:
+            return "O"
+    return "D"
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
-    assert checkio([
-        u"X.O",
-        u"XX.",
-        u"XOO"]) == "X", "Xs wins"
     assert checkio([
         u"OO.",
         u"XOX",

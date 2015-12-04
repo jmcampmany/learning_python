@@ -1,5 +1,4 @@
 OPERATION_NAMES = ("conjunction", "disjunction", "implication", "exclusive", "equivalence")
-
 def boolean(x, y, operation):
 	if operation == "conjunction":
 		if x and y:
@@ -26,7 +25,6 @@ def boolean(x, y, operation):
 			return 1
 		else:
 			return 0
-
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
     assert boolean(1, 0, u"conjunction") == 0, "and"
