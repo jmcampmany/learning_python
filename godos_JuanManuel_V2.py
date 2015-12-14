@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
 #Juan Manuel Benítez Campmany
 
 def nombreBebe(listaReyes, letraInicial):
