@@ -1,5 +1,5 @@
 <table>
-<tr>
+<tr border=0>
 	<td>
 		<h1 align="center">
 		<img src="./pythocat.png">
