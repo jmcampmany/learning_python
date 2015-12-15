@@ -1,6 +1,6 @@
 <table>
 <tr border=0>
-	<td>
+	<td valign=top>
 		<h1 align="center">
 		<img src="./pythocat.png">
 		</h1>
